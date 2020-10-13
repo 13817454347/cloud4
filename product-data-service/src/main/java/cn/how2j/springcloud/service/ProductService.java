@@ -15,7 +15,7 @@ public class ProductService {
 
 	public List<Product> listProducts(){
     	List<Product> ps = new ArrayList<>();
-    	ps.add(new Product(1,"product a from port:"+port, 500));
+    	ps.add(new Product(1,"product a from port:"+port, 5000));
     	ps.add(new Product(2,"product b from port:"+port, 150));
     	ps.add(new Product(3,"product c from port:"+port, 250));
     	return ps;
